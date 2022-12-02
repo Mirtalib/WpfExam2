@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="Source.Veiws.SingOutVeiw"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Source.Veiws"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="Black">
+        <StackPanel 
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+            <Label
+                Width="360"
+                Foreground="Red"
+                Content="Goodbye"
+                FontSize="40"
+                Margin="0,0,0,5"/>
+            <TextBlock
+                Margin="5,0,0,0"
+                FontSize="30"
+                Foreground="Red"
+                Text="We are waiting"/>
+            <TextBlock
+                Margin="5,0,0,0"
+                FontSize="30"
+                Foreground="Red"
+                Text="for you again"/>
+            <TextBlock
+                
+                FontSize="20"
+                Foreground="Red"
+                Text="Remember your ?" Margin="5,5,0,15"/>
+            <Button 
+                Command="{Binding YesCommand}"
+                Style="{StaticResource ResourceKey=BtnStyle}" 
+                Content="Yes" 
+                ></Button>
+            <Button 
+                
+                Command="{Binding NoCommand}"
+                Style="{StaticResource ResourceKey=BtnStyle}" 
+                Content="No" 
+                ></Button>
+        </StackPanel>
+        
+        
+    </Grid>
+</UserControl>

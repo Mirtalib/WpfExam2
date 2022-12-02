@@ -1,0 +1,198 @@
+[
+  {
+    "Id": "69fe5637-5281-4858-b351-232116dc6d88",
+    "Username": "Murad",
+    "Password": "122334545",
+    "Email": "muradmeherremli@gmail.com",
+    "RememberMe": true,
+    "Movies": [
+      {
+        "Title": "Run",
+        "Year": "2020",
+        "Rated": "PG-13",
+        "Released": "20 Nov 2020",
+        "Runtime": "90 min",
+        "Genre": "Mystery, Thriller",
+        "Director": "Aneesh Chaganty",
+        "Writer": "Aneesh Chaganty, Sev Ohanian",
+        "Actors": "Sarah Paulson, Kiera Allen, Sara Sohn",
+        "Plot": "A homeschooled teenager begins to suspect her mother is keeping a dark secret from her.",
+        "Language": "English",
+        "Country": "United States, Canada",
+        "Awards": "3 wins & 5 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZjdmZDlkMzItNTg0OS00MjAxLWE0ZTQtZjdhOWM1MTJkOTc0XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "6.7/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "89%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "67/100"
+          }
+        ],
+        "Metascore": "67",
+        "imdbRating": "6.7",
+        "imdbVotes": "79,753",
+        "imdbID": "tt8633478",
+        "Type": "movie",
+        "DVD": "20 Nov 2020",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      },
+      {
+        "Title": "The Avengers",
+        "Year": "2012",
+        "Rated": "PG-13",
+        "Released": "04 May 2012",
+        "Runtime": "143 min",
+        "Genre": "Action, Adventure, Sci-Fi",
+        "Director": "Joss Whedon",
+        "Writer": "Joss Whedon, Zak Penn",
+        "Actors": "Robert Downey Jr., Chris Evans, Scarlett Johansson",
+        "Plot": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+        "Language": "English, Russian, Hindi",
+        "Country": "United States",
+        "Awards": "Nominated for 1 Oscar. 38 wins & 80 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "8.0/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "91%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "69/100"
+          }
+        ],
+        "Metascore": "69",
+        "imdbRating": "8.0",
+        "imdbVotes": "1,387,297",
+        "imdbID": "tt0848228",
+        "Type": "movie",
+        "DVD": "25 Sep 2012",
+        "BoxOffice": "$623,357,910",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      },
+      {
+        "Title": "Dr. T & the Women",
+        "Year": "2000",
+        "Rated": "R",
+        "Released": "13 Oct 2000",
+        "Runtime": "122 min",
+        "Genre": "Comedy, Drama, Romance",
+        "Director": "Robert Altman",
+        "Writer": "Anne Rapp",
+        "Actors": "Richard Gere, Helen Hunt, Farrah Fawcett",
+        "Plot": "A wealthy gynecologist's ideal life is thrown into turmoil when the women closest to him begin to affect his life in unexpecting ways.",
+        "Language": "English, German, Spanish",
+        "Country": "United States, Germany",
+        "Awards": "4 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYTllODYwZjktZDEzYi00ZDZkLWFjZWMtMGVkYzc4NTczNzI0XkEyXkFqcGdeQXVyNzc5MjA3OA@@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "4.7/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "57%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "64/100"
+          }
+        ],
+        "Metascore": "64",
+        "imdbRating": "4.7",
+        "imdbVotes": "19,767",
+        "imdbID": "tt0205271",
+        "Type": "movie",
+        "DVD": "20 Nov 2001",
+        "BoxOffice": "$13,113,041",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      },
+      {
+        "Title": "Kardes Payi",
+        "Year": "2014–2015",
+        "Rated": "TV-PG",
+        "Released": "13 Feb 2014",
+        "Runtime": "70 min",
+        "Genre": "Comedy, Drama, Family",
+        "Director": "N/A",
+        "Writer": "N/A",
+        "Actors": "Ahmet Kural, Murat Cemcir, Seda Bakan",
+        "Plot": "The two brothers have a plumbing company and they are trying to invent something that would make the world a better place.",
+        "Language": "Turkish, English",
+        "Country": "Turkey",
+        "Awards": "1 win & 3 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNDI2YThjNzAtZWZiMS00OWZkLWIwY2UtN2RjNTU5MGE1ODdkXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "8.6/10"
+          }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.6",
+        "imdbVotes": "16,469",
+        "imdbID": "tt3671754",
+        "Type": "series",
+        "DVD": null,
+        "BoxOffice": null,
+        "Production": null,
+        "Website": null,
+        "Response": "True"
+      },
+      {
+        "Title": "Hello",
+        "Year": "2008",
+        "Rated": "N/A",
+        "Released": "10 Oct 2008",
+        "Runtime": "129 min",
+        "Genre": "Drama, Romance",
+        "Director": "Atul Agnihotri",
+        "Writer": "Atul Agnihotri, Chetan Bhagat, Jalees Sherwani",
+        "Actors": "Sharman Joshi, Amrita Arora, Sohail Khan",
+        "Plot": "Call-center workers receive a phone call from God.",
+        "Language": "Hindi",
+        "Country": "India",
+        "Awards": "1 nomination",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZGM5NjliODgtODVlOS00OWZmLWIzYzMtMTI2OWIzMTM1ZGRhXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "3.3/10"
+          }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "3.3",
+        "imdbVotes": "2,180",
+        "imdbID": "tt1087856",
+        "Type": "movie",
+        "DVD": "05 Apr 2018",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "Surname": "Meherremli",
+    "Name": "Murad",
+    "BrithDay": "0001-01-01T00:00:00"
+  }
+]

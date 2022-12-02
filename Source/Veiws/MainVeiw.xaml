@@ -1,0 +1,106 @@
+﻿<Window x:Class="Source.Veiws.MainVeiw"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModels="clr-namespace:Source.VeiwModels"
+        xmlns:viewModelsMovie="clr-namespace:Source.VeiwModels.MovieVeiwModels"
+        xmlns:viewModelsSetting="clr-namespace:Source.VeiwModels.Settings"
+        mc:Ignorable="d"
+        Title="Netflix" Height="450" Width="800"
+        Icon="/StaticFiles/Images/4375011_logo_netflix_icon.png"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
+        xmlns:view1="clr-namespace:Source.Veiws"
+        xmlns:view2="clr-namespace:Source.Veiws.MovieVeiws"
+        xmlns:uc1="clr-namespace:Source.User_Conteol"
+        xmlns:ucModels="clr-namespace:Source.UserControlVeiwModels"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        WindowStartupLocation="CenterScreen">
+    
+    
+    <ContentControl  Content="{Binding CurrentViewModel}">
+
+        <ContentControl.Resources>
+            
+            <!--AddMovie-->
+            <DataTemplate DataType="{x:Type viewModelsMovie:MovieSourceVeiwModel}">
+                <view2:MovieSource/>
+            </DataTemplate>
+            
+            <DataTemplate DataType="{x:Type viewModelsMovie:InformationMovieVeiwModel}">
+                <view2:InformationMovieVeiw/>
+            </DataTemplate>
+
+            <!--End AddMovie-->
+
+            <!--Profil-->
+            <DataTemplate DataType="{x:Type viewModels:ProfileVeiwModel}">
+                <view1:ProfileVeiw/>
+            </DataTemplate>
+            <!--End Profil-->
+
+            
+            <!--UserControl-->
+            <DataTemplate DataType="{x:Type ucModels:MoviePublicityVeiwModel}">
+                <uc1:MoviePublicity/>
+            </DataTemplate>
+            <!--End UC-->
+
+            
+            
+            <!--Setting-->
+            <DataTemplate DataType="{x:Type viewModelsSetting:SettingsVeiwModel}">
+                <view1:SettingsVeiw/>
+            </DataTemplate>
+            
+             <DataTemplate DataType="{x:Type viewModelsSetting:SettingUpdateUserVeiwModel}">
+                <view1:SettingUpdateUserVeiw/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModels:SingOutVeiwModel}">
+                <view1:SingOutVeiw/>
+            </DataTemplate>
+            <!--End Setting-->
+            
+            
+            
+            <!--Registr-->
+            <DataTemplate DataType="{x:Type viewModels:RegistrationUserStep1VeiwModel}">
+                <view1:RegistrationUserStep1/>
+            </DataTemplate>
+            
+            <DataTemplate DataType="{x:Type viewModels:RegistrationUserStep2VeiwModel}">
+                <view1:RegistrationUserStep2/>
+            </DataTemplate>
+            
+            <DataTemplate DataType="{x:Type viewModels:RegistrationUserStep3VeiwModel}">
+                <view1:RegistrationUserStep3/>
+            </DataTemplate>
+            <!--End Regist-->
+
+            
+            
+            <!--Sin In-->
+            <DataTemplate DataType="{x:Type viewModels:SingInUserVeiwModel}">
+                <view1:SingInUser/>
+            </DataTemplate>
+            <!--End Sin In-->
+            
+            
+            
+            <!--Home-->
+            <DataTemplate DataType="{x:Type viewModels:HomeVeiwModel}">
+                <view1:HomeVeiw/>
+            </DataTemplate>
+            <!--End Home-->
+
+        </ContentControl.Resources>
+
+
+    </ContentControl>
+</Window>
